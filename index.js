@@ -11,7 +11,7 @@ const app = express()
 app.use (express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://saurabhvermascno209:OH4ptxqde7bMe6kY@cluster0.bwesofx.mongodb.net/")
+mongoose.connect("Mongoose String")
 
 app.post('/admin',(req,res)=>{
     const {username,password} =  req.body;
